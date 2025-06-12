@@ -23,7 +23,7 @@ public class Palindrome {
     
                     reverser += lastdig;
                     reverser *= 10;
-                    x = x / 10;
+                    x = x / 10; 
                 }
                 reverser /= 10;
                 return reverser==original;
